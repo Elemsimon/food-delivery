@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo Section - Top of the Navbar on Mobile */}
         <div className="flex justify-center lg:justify-start">
           <Link href="/">
-            <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+            <Image src="/pizza.svg" alt="logo" width={74} height={29} />
           </Link>
         </div>
         

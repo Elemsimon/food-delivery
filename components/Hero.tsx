@@ -11,6 +11,13 @@ const Hero = () => {
           The food at your doorstep. Why starve when you have us. You hunger partner. Straight out of the oven to your doorstep. 
         </p>
 
+        <div className='flex flex-row items-center justify-between pt-5'>
+          <input type="text" placeholder='Enter your email address...' className='w-[470px] h-[62px] bg-[#F6F6F6] py-6 px-7 rounded-full text-sm font-light'/>
+          <button className="absolute flex justify-center items-center right-[125px] text-center w-[85] h-[52px] bg-[#FF5331] text-white px-5 rounded-full py-3">
+            Order Now
+          </button>
+        </div>
+
         <div className="flex flex-row w-full gap-3 pt-10 sm:flex-row object-cover">
           <Image
             src="/apple.svg"
