@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="absolute w-full z-10">
-      <div className="max-w-7xl mx-auto flex flex-row justify-between items-center lg:flex-row lg:justify-between px-5 lg:px-20 py-10">
+    <nav className="relative w-full z-10">
+      <div className="max-w-7xl mx-auto flex flex-row justify-between items-center lg:flex-row lg:justify-between px-5 lg:px-20 py-5 lg:py-10">
         
         {/* Logo Section - Top of the Navbar on Mobile */}
         <div className="flex justify-center lg:justify-start">
@@ -32,7 +32,7 @@ const Navbar = () => {
           <button className="text-black">
             Login
           </button>
-          <button className="bg-red-600 text-white px-5 rounded-3xl py-3">
+          <button className="bg-[#FF5331] text-white px-5 rounded-3xl py-3">
             Sign Up
           </button>
         </div>

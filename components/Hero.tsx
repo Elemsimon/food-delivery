@@ -3,8 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between flex-col gap-20 py-24 pb-32 lg:gap-28 lg:py-48 lg:flex-row px-5 sm:px-20">
-     
+    <div className="flex justify-between flex-col gap-20 py-0 lg:gap-28 lg:py-20 lg:flex-row px-5 sm:px-20">
 
       <div className="relative z-20 flex flex-1 text-start flex-col py-10">
         <h1 className="text-[40px] sm:text-[61px] leading-none font-bold">Your Favorite Food Delivery Partner</h1>
