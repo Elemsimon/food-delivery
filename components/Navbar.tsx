@@ -9,9 +9,7 @@ const Navbar = () => {
         
         {/* Logo Section - Top of the Navbar on Mobile */}
         <div className="flex justify-center lg:justify-start">
-          <Link href="/">
-            <Image src="/pizza.svg" alt="logo" width={74} height={29} />
-          </Link>
+          <p className="text-[42px]">🍕</p>
         </div>
         
         {/* Links Section - Hidden on Mobile */}
