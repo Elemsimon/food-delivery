@@ -1,3 +1,4 @@
+import { grid2 } from "@/constants"
 import Image from "next/image"
 
 const DishGrid2 = () => {
@@ -20,24 +21,15 @@ const DishGrid2 = () => {
         </div>
       </div>
       <div className="flex flex-col justify-evenly sm:flex-row gap-5">
-        <div className="flex flex-col rounded-3xl justify-center items-center px-7 mb-4 sm:mb-0 bg-[#FAFAFA] text-white w-full h-[232px]">
+      { grid2.map((grid) => (
+          <div key={grid.id} className="flex flex-col rounded-3xl justify-center items-center px-7 mb-4 sm:mb-0 bg-[#FAFAFA] text-white w-full h-[232px]">
           <div className="flex justify-center items-center bg-white rounded-full w-[108px] h-[108px] cursor-pointer">
-            <p className="text-[54px]">🍝</p>
+            <p className="text-[54px]">{grid.image}</p>
           </div>
-            <p className="text-[24px] font-medium text-[#191720] pt-6">Pasta</p>
+            <p className="text-[24px] font-medium text-[#191720] pt-6">{grid.title}</p>
         </div>
-        <div className="flex flex-col rounded-3xl justify-center items-center px-7 mb-4 sm:mb-0 bg-[#FAFAFA] text-white w-full h-[232px]">
-          <div className="flex justify-center items-center bg-white rounded-full w-[108px] h-[108px] cursor-pointer">
-            <p className="text-[54px]">🥗</p>
-          </div>
-          <p className="text-[24px] font-medium text-[#191720] pt-6">Salad</p>
-        </div>
-        <div className="flex flex-col rounded-3xl justify-center items-center px-7 mb-4 sm:mb-0 bg-[#FAFAFA] text-white w-full h-[232px]">
-          <div className="flex justify-center items-center bg-white rounded-full w-[108px] h-[108px] cursor-pointer">
-            <p className="text-[54px]">🍰</p>
-          </div>
-          <p className="text-[24px] font-medium text-[#191720] pt-6">Desserts</p>
-        </div>
+          
+        ))}
       </div>
       
     </div>
