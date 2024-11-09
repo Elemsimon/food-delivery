@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between flex-col gap-20 py-0 lg:gap-28 lg:py-20 lg:flex-row px-5 sm:px-20">
+    <div className="flex justify-between flex-col gap-2 py-0 xl:gap-20 lg:py-20 xl:flex-row px-5 sm:px-20">
 
       <div className="relative z-20 flex flex-1 text-start flex-col py-10">
         <h1 className="text-[40px] sm:text-[61px] leading-none font-bold">Your Favorite Food Delivery Partner</h1>
@@ -11,9 +10,9 @@ const Hero = () => {
           The food at your doorstep. Why starve when you have us. You hunger partner. Straight out of the oven to your doorstep. 
         </p>
 
-        <div className='flex flex-row items-center justify-between pt-5'>
-          <input type="text" placeholder='Enter your email address...' className='w-[470px] h-[62px] bg-[#F6F6F6] py-6 px-7 rounded-full text-sm font-light'/>
-          <button className="absolute flex justify-center items-center right-[125px] text-center w-[85] h-[52px] bg-[#FF5331] text-white px-5 rounded-full py-3">
+        <div className='flex flex-col sm:flex-row items-center justify-between pt-5 gap-2'>
+          <input type="text" placeholder='Enter your email address...' className='w-full h-[62px] bg-[#F6F6F6] py-6 px-7 rounded-2xl text-sm font-light'/>
+          <button className="flex justify-center items-center text-center w-full sm:w-48 h-[62px] bg-[#FF5331] text-white px-7 rounded-2xl py-6">
             Order Now
           </button>
         </div>
@@ -38,7 +37,7 @@ const Hero = () => {
         <div className="relative z-20 flex flex-col gap-8 bg-[#F2EBDA] px-10 pt-10 rounded-3xl">
           <Image 
             src="/courier.svg" 
-            alt="logo" 
+            alt="courier" 
             width={500} 
             height={452}
             className='object-conatin'
