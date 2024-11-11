@@ -13,7 +13,7 @@ const Clients = () => {
         <div className='py-8 sm:py-16'>
           <Image
             src="/vector.svg"
-            alt="apple"
+            alt="image"
             width={60}
             height={55}
           />
@@ -32,13 +32,13 @@ const Clients = () => {
         <div className='flex flex-row gap-6'>
           <Image
             src="/leftArrow.svg"
-            alt="apple"
+            alt="leftArrow"
             width={36}
             height={36}
           />
           <Image
             src="/rightArrow.svg"
-            alt="apple"
+            alt="rightArrow"
             width={36}
             height={36}
           />

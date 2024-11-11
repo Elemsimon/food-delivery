@@ -21,7 +21,7 @@ const DishGrid = () => {
         <div className="flex justify-end items-end pt-0 lg:pt-2 xl:pt-0">
           <Image
             src="/bike.svg"
-            alt="apple"
+            alt="bike"
             width={192}
             height={116}
             className="flex justify-end items-end"
